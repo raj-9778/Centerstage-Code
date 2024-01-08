@@ -37,7 +37,7 @@ package org.firstinspires.ftc.teamcode;
           frontRight.setDirection(DcMotorSimple.Direction.REVERSE);
           
           visionProcessor = new CSVisionProcessor(); 
-        visionPortal = VisionPortal.easyCreateWithDefaults(hardwareMap.get(WebcamName.class, "Webcam1"), visionProcessor);
+      //  visionPortal = VisionPortal.easyCreateWithDefaults(hardwareMap.get(WebcamName.class, "Webcam1"), visionProcessor);
         visionPortalBuilder = new VisionPortal.Builder();
         visionPortalBuilder.setCamera(hardwareMap.get(WebcamName.class,"Webcam1"));
         visionPortalBuilder.addProcessor(visionProcessor);
